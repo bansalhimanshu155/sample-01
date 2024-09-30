@@ -20,7 +20,6 @@ const config = getConfig();
 const providerConfig = {
   domain: config.domain,
   clientId: config.clientId,
-  cookieDomain: ".netlify.app",
   onRedirectCallback,
   authorizationParams: {
     redirect_uri: window.location.origin,
